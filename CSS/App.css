@@ -92,7 +92,7 @@ h3{
 10 rem son 100px*/
 
 .sobre-nosotros{
-  background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%),url(/Primerproyecto/Img/Imagenes\ Ecommerce/nosotros.jpg);
+  background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%),url(Img/Imagenes\ Ecommerce/nosotros.jpg);
   background-repeat: no-repeat;
   background-position: left center;
   padding: 100px 0;
