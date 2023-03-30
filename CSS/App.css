@@ -279,6 +279,8 @@ font-weight: bold;
   margin: 0 auto;
 }
 
+/*Galeria*/
+
 .galeria{
   list-style: none;
   display: grid;
@@ -292,6 +294,8 @@ font-weight: bold;
   width: 400px;
   object-fit: cover;
 }
+
+/*formulario*/
 
 .formulario{
   max-width: 800px;
