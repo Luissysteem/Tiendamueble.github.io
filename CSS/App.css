@@ -266,6 +266,12 @@ font-weight: bold;
   padding: 10px;
   text-align: center;
   max-width: 300px;
+  border: none;
+}
+
+.btn:hover{
+  background-color: #769c02;
+  cursor: pointer;
 }
 
 .contenedor-entrada{
@@ -286,3 +292,48 @@ font-weight: bold;
   width: 400px;
   object-fit: cover;
 }
+
+.formulario{
+  max-width: 800px;
+  margin: 0 auto
+}
+
+.formulario fieldset{
+
+  border: 1px solid 1px;
+  margin-bottom: 25px;
+}
+
+.formulario legend{
+  text-align: center;
+  background-color: #0b5580;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.campo{
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+.campo label{
+  flex-basis: 100px;
+}
+.campo input, textarea,
+.campo select{
+  flex: 1;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+}
+
+.opcion{
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
