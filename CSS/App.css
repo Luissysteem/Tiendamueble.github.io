@@ -127,6 +127,7 @@ h3{
 .texto-producto{
   text-align: center;
   color: #fff;
+  padding: 10px;
 }
 
 .texto-producto a{
@@ -148,7 +149,7 @@ h3{
   gap: 15px;
 }
 
-.productos:nth-child(1){
+.productos:nth-child(1){ /*Indica como va a esta conformado el producto*/
   grid-column-start: 1;
   grid-column-end: 7;
   display: grid;
